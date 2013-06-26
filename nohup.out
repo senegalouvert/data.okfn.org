@@ -1,0 +1,210 @@
+Listening on 11342
+[90mGET / [32m200 [90m19ms - 5.85kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [32m200 [90m4ms - 2.73kb[0m
+[90mGET /vendor/recline/css/flot.css [32m200 [90m3ms - 435b[0m
+[90mGET /css/style.css [32m200 [90m3ms - 4.38kb[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [32m200 [90m4ms - 36.52kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [32m200 [90m8ms - 156.09kb[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [32m200 [90m6ms - 116.26kb[0m
+[90mGET /vendor/recline/dist/recline.css [32m200 [90m2ms - 18.1kb[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [32m200 [90m2ms - 11.45kb[0m
+[90mGET /js/app.js [32m200 [90m1ms - 429b[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [32m200 [90m7ms - 242.42kb[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m2ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [32m200 [90m5ms - 58.1kb[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [32m200 [90m3ms - 14.17kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [32m200 [90m2ms - 4.76kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [32m200 [90m4ms - 39.39kb[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [32m200 [90m3ms - 42.88kb[0m
+[90mGET /vendor/recline/dist/recline.js [32m200 [90m8ms - 146kb[0m
+[90mGET /js/catalog.js [32m200 [90m2ms - 2.08kb[0m
+[90mGET /data [32m200 [90m38ms - 20.46kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/css/flot.css [36m304 [90m0ms[0m
+[90mGET /vendor/recline/dist/recline.css [36m304 [90m0ms[0m
+[90mGET /css/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [36m304 [90m0ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m1ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [36m304 [90m4ms[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [36m304 [90m5ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/dist/recline.js [36m304 [90m1ms[0m
+[90mGET /js/catalog.js [36m304 [90m1ms[0m
+[90mGET /js/app.js [36m304 [90m0ms[0m
+[90mGET /data/bond-yields-uk-10y [32m200 [90m11ms - 12.02kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [36m304 [90m2ms[0m
+[90mGET /vendor/recline/css/flot.css [36m304 [90m0ms[0m
+[90mGET /vendor/recline/dist/recline.css [36m304 [90m1ms[0m
+[90mGET /css/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m1ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [36m304 [90m0ms[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.js [36m304 [90m0ms[0m
+[90mGET /js/app.js [36m304 [90m0ms[0m
+[90mGET /js/catalog.js [36m304 [90m0ms[0m
+[90mGET /data/bond-yields-uk-10y.csv [32m200 [90m430ms - 311b[0m
+[90mGET / [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/css/flot.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.css [36m304 [90m0ms[0m
+[90mGET /css/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m1ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [36m304 [90m0ms[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/dist/recline.js [36m304 [90m0ms[0m
+[90mGET /js/catalog.js [36m304 [90m0ms[0m
+[90mGET /js/app.js [36m304 [90m0ms[0m
+[90mGET /data [36m304 [90m5ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [36m304 [90m0ms[0m
+[90mGET /vendor/recline/css/flot.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.css [36m304 [90m1ms[0m
+[90mGET /css/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [36m304 [90m0ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m0ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [36m304 [90m1ms[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.js [36m304 [90m0ms[0m
+[90mGET /js/catalog.js [36m304 [90m0ms[0m
+[90mGET /js/app.js [36m304 [90m1ms[0m
+TypeError: Cannot read property 'fields' of undefined
+    at exports.dataShow (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/routes/index.js:216:38)
+    at callbacks (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/node_modules/express/lib/router/index.js:161:37)
+    at param (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/node_modules/express/lib/router/index.js:135:11)
+    at param (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/node_modules/express/lib/router/index.js:132:11)
+    at pass (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/node_modules/express/lib/router/index.js:142:5)
+    at Router._dispatch (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/node_modules/express/lib/router/index.js:170:5)
+    at Object.router (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/node_modules/express/lib/router/index.js:33:10)
+    at next (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.CATALOG_URL_DEFAULT [as handle] (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/app.js:40:5)
+    at next (/var/www/sites/senegalouvert.org/senegalouvert.org/subdomains/www/html/data.okfn.org-master/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mGET /data/cofog [31m500 [90m5ms - 1.59kb[0m
+[90mGET /data/bond-yields-uk-10y [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/css/flot.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.css [36m304 [90m0ms[0m
+[90mGET /css/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m1ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [36m304 [90m2ms[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.js [36m304 [90m0ms[0m
+[90mGET /js/catalog.js [36m304 [90m0ms[0m
+[90mGET /js/app.js [36m304 [90m1ms[0m
+[90mGET /data/bond-yields-uk-10y.csv [32m200 [90m597ms - 311b[0m
+[90mGET / [36m304 [90m2ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [36m304 [90m0ms[0m
+[90mGET /vendor/recline/css/flot.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.css [36m304 [90m0ms[0m
+[90mGET /css/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m0ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [36m304 [90m1ms[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [90m9ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/dist/recline.js [36m304 [90m1ms[0m
+[90mGET /js/catalog.js [36m304 [90m0ms[0m
+[90mGET /js/app.js [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m1ms - 5.85kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [32m200 [90m2ms - 2.73kb[0m
+[90mGET /vendor/recline/css/flot.css [32m200 [90m1ms - 435b[0m
+[90mGET /vendor/recline/dist/recline.css [32m200 [90m2ms - 18.1kb[0m
+[90mGET /css/style.css [32m200 [90m1ms - 4.38kb[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [32m200 [90m8ms - 242.42kb[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m0ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [32m200 [90m4ms - 36.52kb[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [32m200 [90m5ms - 58.1kb[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [32m200 [90m2ms - 14.17kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [32m200 [90m5ms - 156.09kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [32m200 [90m1ms - 4.76kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [32m200 [90m3ms - 39.39kb[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [32m200 [90m4ms - 42.88kb[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [32m200 [90m8ms - 116.26kb[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [32m200 [90m2ms - 11.45kb[0m
+[90mGET /vendor/recline/dist/recline.js [32m200 [90m9ms - 146kb[0m
+[90mGET /js/catalog.js [32m200 [90m2ms - 2.08kb[0m
+[90mGET /js/app.js [32m200 [90m4ms - 429b[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m1ms[0m
+[90mGET /data [32m200 [90m4ms - 20.46kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [36m304 [90m2ms[0m
+[90mGET /vendor/recline/css/flot.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.css [36m304 [90m0ms[0m
+[90mGET /css/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [36m304 [90m0ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m1ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [36m304 [90m0ms[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [36m304 [90m4ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.js [36m304 [90m0ms[0m
+[90mGET /js/catalog.js [36m304 [90m1ms[0m
+[90mGET /js/app.js [36m304 [90m0ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m0ms[0m
+[90mGET /data/bond-yields-uk-10y [32m200 [90m1ms - 12.02kb[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/css/flot.css [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.css [36m304 [90m0ms[0m
+[90mGET /css/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jquery/1.7.1/jquery.js [36m304 [90m1ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m0ms[0m
+[90mGET /vendor/underscore/1.3.3/underscore.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/backbone/1.0.0/backbone.js [36m304 [90m1ms[0m
+[90mGET /vendor/mustache/0.5.0-dev/mustache.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery-ui-1.8.16.custom.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/jquery.event.drag-2.0.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/slickgrid/2.0.1/slick.grid.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/moment/2.0.0/moment.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [90m0ms[0m
+[90mGET /vendor/recline/vendor/flot/jquery.flot.time.js [36m304 [90m1ms[0m
+[90mGET /vendor/recline/dist/recline.js [36m304 [90m1ms[0m
+[90mGET /js/catalog.js [36m304 [90m1ms[0m
+[90mGET /js/app.js [36m304 [90m0ms[0m
+[90mGET /vendor/bootstrap/2.1.1/bootstrap.min.js [33m404 [90m1ms[0m
+[90mGET /data/bond-yields-uk-10y.csv [32m200 [90m605ms - 311b[0m
+Listening on 11342

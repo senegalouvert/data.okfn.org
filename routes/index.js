@@ -141,7 +141,8 @@ exports.toolsDpView = function(req, res) {
         var resource = dpkg.resources[0];
         resource.backend = 'csv';
         resource.url = '/tools/dataproxy/?url=' + encodeURIComponent(resource.url);
-        resource.fields = resource.schema.fields;
+        //resource.backend = 'dataproxy'
+	resource.fields = resource.schema.fields;
       }
       var dataViews = dpkg.views || [];
       res.render('data/dataset.html', {
