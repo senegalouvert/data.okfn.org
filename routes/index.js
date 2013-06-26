@@ -141,7 +141,6 @@ exports.toolsDpView = function(req, res) {
         var resource = dpkg.resources[0];
         resource.backend = 'csv';
         resource.url = '/tools/dataproxy/?url=' + encodeURIComponent(resource.url);
-        //resource.backend = 'dataproxy'
 	resource.fields = resource.schema.fields;
       }
       var dataViews = dpkg.views || [];
@@ -211,8 +210,9 @@ exports.dataShow = function(req, res) {
     // deep copy and then "fix" in various ways
     var resource = JSON.parse(JSON.stringify(dataset.resources[0]));
     resource.dataset_name = dataset.id;
-    resource.url = '/data/' + id + '.csv';
-    resource.backend = 'csv';
+    //resource.url = '/data/' + id + '.csv';
+    //resource.backend = 'csv';
+    resource.backend = 'dataproxy'; 
     resource.fields = resource.schema.fields;
   }
   var dataViews = dataset.views || [];
