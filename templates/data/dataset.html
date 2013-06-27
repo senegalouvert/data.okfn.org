@@ -17,17 +17,17 @@
       <img src="{{dataset.image or
         'http://assets.okfn.org/p/data.okfn.org/img/icon-data-package.png'}}"
         alt="{{dataset.title}}" class="logo" />
-      <div class="description">{{dataset.description}} &mdash; <a href="#readme">Read more</a></div>
+      <div class="description">{{dataset.description}} &mdash; <a href="#readme">En savoir plus</a></div>
 
       <div class="actions">
         <div class="btn-group">
-          <a href="{{dataset.name}}.csv" class="btn btn-large btn-primary" target="_blank"><i class="icon-download-alt icon-white"></i> Download Data (CSV) &raquo;</a>
+          <a href="{{dataset.name}}.csv" class="btn btn-large btn-primary" target="_blank"><i class="icon-download-alt icon-white"></i> Télécharger donnée (CSV) &raquo;</a>
         </div>
       </div>
 
     </div>
     <div class="span4 sidebar">
-      <div class="homepage">Home page: <a href="https://github.com/senegalouvert/data/tree/master/{{dataset.name}}">github.com/senegalouvert/data/tree/master/{{dataset.name}}</a></div>
+      <div class="homepage">Page d'accuei: <a href="https://github.com/senegalouvert/data/tree/master/{{dataset.name}}">github.com/senegalouvert/data/tree/master/{{dataset.name}}</a></div>
       <div class="source">Source: {{snippets.listify(dataset.sources)}}</div>
       <ul class="keywords">
         {% for kw in dataset.keywords or [] %}
@@ -35,8 +35,8 @@
         {% endfor %}
       </ul>
       <div class="btn-group">
-        <a href="{{dataset.name}}/datapackage.json" class="btn btn-small btn-warning"><i class="icon-download-alt icon-white"></i> Data Package Info</a>
-        <a href="https://github.com/datasets/{{dataset.name}}/issues/new" class="btn btn-small" target="_blank"><i class="icon-exclamation-sign icon-white"></i> Report an Issue</a>
+        <a href="{{dataset.name}}/datapackage.json" class="btn btn-small btn-warning"><i class="icon-download-alt icon-white"></i> Information Package de donnée</a>
+        <a href="https://github.com/senegalouvert/data/issues/new" class="btn btn-small" target="_blank"><i class="icon-exclamation-sign icon-white"></i> Signaler un problème</a>
       </div>
     </div>
   </div>
@@ -44,12 +44,12 @@
   <div class="viewer"></div>
 
   <div class="resource-summary">
-    <h2>Data Fields Summary</h2>
+    <h2>Résumé champs de données</h2>
     <table class="table table-bordered table-striped">
       <thead>
         <tr>
-          <th>Field</th>
-          <th>Order</th>
+          <th>Champ</th>
+          <th>Ordre</th>
           <th>Type (Format)</th>
           <th>Description</th>
         </tr>
