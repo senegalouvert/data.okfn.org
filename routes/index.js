@@ -212,6 +212,7 @@ exports.dataShow = function(req, res) {
     resource.dataset_name = dataset.id;
     //resource.url = '/data/' + id + '.csv';
     //resource.backend = 'csv';
+    //Use The dataproxy backend here 
     resource.backend = 'dataproxy'; 
     resource.fields = resource.schema.fields;
   }
