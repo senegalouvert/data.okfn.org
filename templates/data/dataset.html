@@ -22,7 +22,25 @@
       <div class="actions">
         <div class="btn-group">
           <a href="{{dataset.name}}.csv" class="btn btn-large btn-primary" target="_blank"><i class="icon-download-alt icon-white"></i> Télécharger donnée (CSV) &raquo;</a>
+          <a class="btn btn-large btn-primary bpartager" target="_blank"><i class="icon-share icon-white"></i> Partager &raquo;</a>
+        </div> 
+        <div class="share" >
+     	<div class="share-panel-button">	
+	<!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style ">
+          <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+          <a class="addthis_button_tweet"></a>
+          <a class="addthis_button_pinterest_pinit"></a>
+          <a class="addthis_counter addthis_pill_style"></a>
         </div>
+        <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51d56ff755b2aad4"></script>
+        <!-- AddThis Button END --> 
+     	</div>	
+	<div class="share-panel-embed">
+  		<textarea>&lt;iframe width="420" height="315" src="http://senegalouvert.org/data/{{dataset.name}}/embed" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</textarea>
+	</div> 
+      </div> 
       </div>
 
     </div>

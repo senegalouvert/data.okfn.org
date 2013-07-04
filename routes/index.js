@@ -224,3 +224,27 @@ exports.dataShow = function(req, res) {
   });
 };
 
+exports.dataEmbed = function(req, res) {
+  var id = req.params.id;
+  var dataset = catalog.get(id)
+  if (!dataset) {
+    res.send(404, 'Not Found');
+  }
+  if (dataset.resources && dataset.resources.length > 0) {
+    // Get the primary resource for use in JS
+    // deep copy and then "fix" in various ways
+    var resource = JSON.parse(JSON.stringify(dataset.resources[0]));
+    resource.dataset_name = dataset.id;
+    //resource.url = '/data/' + id + '.csv';
+    //resource.backend = 'csv';
+    //Use The dataproxy backend here
+    resource.backend = 'dataproxy';
+    resource.fields = resource.schema.fields;
+  }
+  var dataViews = dataset.views || [];
+  res.render('data/dataembed.html', {
+    dataset: dataset,
+    raw_data_file: JSON.stringify(resource),
+    dataViews: JSON.stringify(dataViews)
+  });
+};
