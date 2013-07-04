@@ -56,14 +56,36 @@ my.Views.DataFile = Backbone.View.extend({
         return out;
       });
 
-      var explorer = new recline.View.MultiView({
-        model: table,
-        views: viewsForRecline,
-        sidebarViews: []
-      });
-      $viewer.empty().append(explorer.el);
+      //  var explorer = new recline.View.MultiView({
+      //  model: table,
+      //  views: viewsForRecline,
+      //  sidebarViews: []
+      //});
 
-      table.query({size: table.recordCount});
+      var explorer =  new recline.View.MultiView({
+		model:table,
+		views: viewsForRecline,
+		sidebarViews: []	
+	});
+
+      // Starting Hack by Alioune
+	//customize for embed
+	var find_ = function(e){
+	    return explorer.$el.find(e)
+	}
+	//Hack By , find the window location and check if we 
+	//are renderig the embed , if so , remove the unused element
+	//from template .This is an Hack for this moment , i will 
+	//Try to get an more elgant solution later !
+      path_name = window.location.pathname
+      if( path_name.search("embed") > 0 ){
+	    find_(".clearfix").hide();
+	    find_(".editor-buttons").hide();
+	    find_(".editor-save").hide();
+	}
+	//End Hack by Alioune
+      $viewer.empty().append(explorer.el);
+	table.query({size: table.recordCount});
     });
     return this;
   }

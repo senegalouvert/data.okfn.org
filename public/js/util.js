@@ -5,9 +5,10 @@ Toogle =  Backbone.View.extend({
     events: {"click #sharelink": "on_click"},
     render: function(){
         //
+	  $(".share").hide();
     },
     on_click: function(event){
-        $(".share").toggle()
+        $(".share").toggle();
     }
 });
 // To allow event, remember that a listener can only be
