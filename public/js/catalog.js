@@ -37,7 +37,7 @@ my.Views.DataFile = Backbone.View.extend({
       }
       var gridView = {
           id: 'grid',
-          label: 'Grid',
+          label: 'Tableau',
           type: 'SlickGrid',
           state: {
             fitColumns: true
@@ -79,9 +79,10 @@ my.Views.DataFile = Backbone.View.extend({
 	//Try to get an more elgant solution later !
       path_name = window.location.pathname
       if( path_name.search("embed") > 0 ){
-	    find_(".clearfix").hide();
-	    find_(".editor-buttons").hide();
-	    find_(".editor-save").hide();
+	    //find_(".clearfix").hide();
+	    //find_(".editor-buttons").hide();
+	    //find_(".editor-save").hide();
+	    find_(".data-view-sidebar").hide();
 	}
 	//End Hack by Alioune
       $viewer.empty().append(explorer.el);
