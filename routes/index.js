@@ -231,8 +231,8 @@ exports.dataEmbed = function(req, res) {
     res.send(404, 'Not Found');
   }
   if (dataset.resources && dataset.resources.length > 0) {
-    // Get the primary resource for use in JS
-    // deep copy and then "fix" in various ways
+    //Get the primary resource for use in JS
+    //deep copy and then "fix" in various ways
     var resource = JSON.parse(JSON.stringify(dataset.resources[0]));
     resource.dataset_name = dataset.id;
     //resource.url = '/data/' + id + '.csv';
@@ -241,10 +241,32 @@ exports.dataEmbed = function(req, res) {
     resource.backend = 'dataproxy';
     resource.fields = resource.schema.fields;
   }
+  
   var dataViews = dataset.views || [];
+  //check if series params was passed.
+  var series = req.params.series || ''
+  if(series){
+    try {
+        //url decoding 
+        series = decodeURIComponent(series);
+    }catch (e) {
+        series = ''
+    }
+    if (series) {
+        //if ',' in series split and parse
+        if (series.indexOf(",") >0 ){
+            series = series.split(",");
+        }
+    }
+    dataView = dataViews[0];
+    state = dataView.state
+    state.series = series
+  }
   res.render('data/dataembed.html', {
     dataset: dataset,
     raw_data_file: JSON.stringify(resource),
     dataViews: JSON.stringify(dataViews)
   });
+
+
 };

@@ -80,7 +80,7 @@ my.Views.DataFile = Backbone.View.extend({
       path_name = window.location.pathname
       if( path_name.search("embed") > 0 ){
 	    find_(".data-view-sidebar").hide();
-            find_(".header").hide();    
+          find_(".header").hide();    
 	}
 	//End Hack by Alioune
       $viewer.empty().append(explorer.el);
