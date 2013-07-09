@@ -24,10 +24,7 @@ my.Toogle = Backbone.View.extend({
 // To allow event, remember that a listener can only be
 // added to the childs elements of el.
 
-my.SerieV = Backbone.View.extend({
-    // The iframe content ,  html for embed , copy  to your
-    // html blog page 
-    iframe: '<textarea>&lt;iframe width="100%" height="620" src="http://senegalouvert.org/data/{{dataset.name}}/embed/#" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</textarea>';	
+my.SerieV = Backbone.View.extend({	
     initialize: function(){
         console.log('SerieV initializing ...');
         this.$el = $('body');
@@ -47,10 +44,11 @@ my.SerieV = Backbone.View.extend({
             function () {
                 str.push($(this).text());
                 });
-	iframe = this.iframe.replace("#",  encodeURIComponent(str));
-        this.div.html(
-            iframe );
-        }
+	  new_url   =$("#dataset_url").html() + encodeURIComponent(str);
+	  this.div.html(
+            '<textarea>&lt;iframe width="100%" height="620" src="#" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</textarea>'.replace("#", new_url)
+        );
+   }
 });
 var s =  new my.SerieV({el: $('body')});
 }(this.Embed));

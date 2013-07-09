@@ -241,7 +241,6 @@ exports.dataEmbed = function(req, res) {
     resource.backend = 'dataproxy';
     resource.fields = resource.schema.fields;
   }
-  
   var dataViews = dataset.views || [];
   //check if series params was passed.
   var series = req.params.series || ''
@@ -250,13 +249,16 @@ exports.dataEmbed = function(req, res) {
         //url decoding 
         series = decodeURIComponent(series);
     }catch (e) {
-        series = ''
+        series = '';
     }
     if (series) {
         //if ',' in series split and parse
         if (series.indexOf(",") >0 ){
             series = series.split(",");
-        }
+        }else {
+            //One serie
+	  	series = [series];
+	  }
     }
     dataView = dataViews[0];
     state = dataView.state
@@ -267,6 +269,4 @@ exports.dataEmbed = function(req, res) {
     raw_data_file: JSON.stringify(resource),
     dataViews: JSON.stringify(dataViews)
   });
-
-
 };

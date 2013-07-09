@@ -60,6 +60,7 @@ app.get('/data/:id/datapackage.json', routes.dataShowJSON);
 app.get('/data/:id.csv', routes.dataShowCSV);
 app.get('/data/:id', routes.dataShow);
 app.get('/data/:id/embed', routes.dataEmbed);
+app.get('/data/:id/embed/:series', routes.dataEmbed);
 
 var CATALOG_URL_DEFAULT = 'https://raw.github.com/senegalouvert/registry/master/datapackage-index.json';
 var url = process.env.CATALOG_URL|| CATALOG_URL_DEFAULT;
