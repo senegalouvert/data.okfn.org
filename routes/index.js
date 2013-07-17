@@ -9,7 +9,7 @@ var fs = require('fs')
 
 var catalog = new model.Catalog();
 exports.catalog = catalog;
-
+_ = require('underscore');
 // ========================================================
 // Core content
 // ========================================================
@@ -217,6 +217,8 @@ exports.dataShow = function(req, res) {
     resource.fields = resource.schema.fields;
   }
   var dataViews = dataset.views || [];
+  console.log('test ori' + dataViews[0].state.series );
+
   res.render('data/dataset.html', {
     dataset: dataset,
     raw_data_file: JSON.stringify(resource),
@@ -260,13 +262,16 @@ exports.dataEmbed = function(req, res) {
 	  	series = [series];
 	  }
     }
-    dataView = dataViews[0];
-    state = dataView.state
-    state.series = series
+    //create an copy of the dataviews series, we should not moidfy 
+    //the original dataviews 
+    old =dataViews[0].state.series 
+    dataViews[0].state.series =series
   }
   res.render('data/dataembed.html', {
     dataset: dataset,
     raw_data_file: JSON.stringify(resource),
     dataViews: JSON.stringify(dataViews)
   });
+   //restore old series
+   dataViews[0].state.series  = old;
 };
