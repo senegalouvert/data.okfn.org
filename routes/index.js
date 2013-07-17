@@ -9,7 +9,6 @@ var fs = require('fs')
 
 var catalog = new model.Catalog();
 exports.catalog = catalog;
-_ = require('underscore');
 // ========================================================
 // Core content
 // ========================================================
