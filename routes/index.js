@@ -11,7 +11,7 @@ exports.catalog = catalog;
 var catalog2 = new model.Catalog();
 exports.catalog2 = catalog2;
 
-_ = require('underscore');
+//_ = require('underscore');
 // ========================================================
 // Core content
 // ========================================================
@@ -219,8 +219,6 @@ exports.dataShow = function(req, res) {
     resource.fields = resource.schema.fields;
   }
   var dataViews = dataset.views || [];
-  console.log('test ori' + dataViews[0].state.series );
-
   res.render('data/dataset.html', {
     dataset: dataset,
     raw_data_file: JSON.stringify(resource),
