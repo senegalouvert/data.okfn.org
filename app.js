@@ -1,7 +1,6 @@
 var express = require('express')
   , path = require('path')
   , nunjucks = require('nunjucks')
-
   , routes = require('./routes')
   ;
 
@@ -69,9 +68,11 @@ routes.catalog.loadURL(url, function(err) {
   if (err) {
     console.error('Failed to load dataset info');
   }
+  routes.catalog2.loadURL(url , function(err){});
   app.listen(app.get('port'), function() {
     console.log("Listening on " + app.get('port'));
   });
+
 });
 
 exports.app = app;

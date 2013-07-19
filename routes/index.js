@@ -2,13 +2,16 @@ var fs = require('fs')
   , request = require('request')
   , marked = require('marked')
   , csv = require('csv')
-
-  , tools = require('../tools.js')
-  , model = require('../model.js')
+  , tools  = require('../tools.js')
+  , model  = require('../model.js')
   ;
 
 var catalog = new model.Catalog();
 exports.catalog = catalog;
+var catalog2 = new model.Catalog();
+exports.catalog2 = catalog2;
+
+_ = require('underscore');
 // ========================================================
 // Core content
 // ========================================================
@@ -227,7 +230,7 @@ exports.dataShow = function(req, res) {
 
 exports.dataEmbed = function(req, res) {
   var id = req.params.id;
-  var dataset = catalog.get(id)
+  var dataset = catalog2.get(id)
   if (!dataset) {
     res.send(404, 'Not Found');
   }
@@ -261,16 +264,14 @@ exports.dataEmbed = function(req, res) {
 	  	series = [series];
 	  }
     }
-    //create an copy of the dataviews series, we should not moidfy 
-    //the original dataviews 
-    old =dataViews[0].state.series 
     dataViews[0].state.series =series
+
   }
   res.render('data/dataembed.html', {
-    dataset: dataset,
+    dataset: dataset ,
     raw_data_file: JSON.stringify(resource),
     dataViews: JSON.stringify(dataViews)
   });
-   //restore old series
-   dataViews[0].state.series  = old;
+   //dataViews[0].state.series  = old;
+   
 };
