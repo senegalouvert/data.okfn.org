@@ -1,52 +1,50 @@
-# Publish Data as Data Packages
+# Publier des données en paquets de données 
 
-You can publish **any kind of data** as a Data Package.
+Vous pouvez publier **tout type de données** comme un paquet de données.
 
-Turning your existing data into a Data Package is incredibly simple:
+Rendre vos données existant en un paquet de données est relativement simple :
 
-1. Get your data together in one place
-2. Add a single `datapackage.json` file
+1. Regrouper vos données en un seul endroit 
+2. Ajouter un seul fichier `datapackage.json`
 
-That's it!
+Ce est tout!
 
-And once you have packaged up your data making it aviailable for others is as simple as [putting it online][online].
+Et une fois que vous avez votre paquet de données, le rendre disponible pour les autres quoi de plus simples que de le [mettre en ligne][online].
 
 [online]: /doc/publish-online
 
 <div class="row">
   <div class="span2">
     <h3>
-      I want to
-      <br />
-      package up
-      <br />
-      and publish &hellip;
+      Je veux  
+      empaqueter  
+      et publier &hellip;
     </h3>
   </div>
   <div class="span4">
     <div class="well">
       <h3>
-        Tabular Data
+       Données tabulaires 
       </h3>
-      <p>If it's in rows and columns it's tabular &ndash; think spreadsheets!</p>
+      <p>S'il y a des lignes et colonnes, c'est un tableau - penser feuilles de calcul!</p>
       <a href="/doc/publish-tabular" class="btn btn-large">
         Go &raquo;
       </a>
     </div>
     <div class="well">
       <h3>
-        Geospatial Data
+        Données géospatiales 
       </h3>
-      <p>Map or location related? It's geospatial &hellip;</p>
+      <p>Carte ou emplacement ce rapportant? c'est géospatiales &hellip;</p>
       <a href="/doc/publish-geo" class="btn btn-large">
         Go &raquo;
       </a>
     </div>
     <div class="well">
       <h3>
-        Any Kind of Data
+        Tout type de données 
       </h3>
-      <p>Any kind of data you have &hellip;</p>
+      <p>Tout type de donnée que vous avez &hellip;</p>
       <a href="/doc/publish-any" class="btn btn-large">
         Go &raquo;
       </a>

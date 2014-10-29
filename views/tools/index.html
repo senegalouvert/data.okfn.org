@@ -1,38 +1,38 @@
 {% extends "base.html" %}
 
 {% block title %}
-Tools and Plugins
+Outils et Plugins
 {% endblock %}
 
 {% block content %}
 <div class="page-header">
   <div style="float: right;">
-    <a name="contribute" href="//github.com/okfn/data.okfn.org/blob/master/views/tools/index.html" target="_blank" class="btn btn-success">Contributions Welcome - Edit this Page &gt;</a>
+    <a name="contribute" href="//github.com/okfn/data.okfn.org/blob/master/views/tools/index.html" target="_blank" class="btn btn-success">Vos contributions sont bienvenues - Modifier cette page &gt;</a>
   </div>
   <h1>
-    Tools and Plugins for working with Data Packages
+    Outils et Plugins pour Travailler avec des paquets de données 
     <br />
-    <small>Including tools for creating, viewing, validating, and publishing</small>
+    <small>Y compris les outils pour la création, la visualisation, la validation et la publication.</small>
   </h1>
 </div>
 
 <div class="row main-tools">
   <div class="span4">
     <div class="well">
-      <h3>View</h3>
-      <p><a href="/tools/view">Online Data Package viewer</a> app lets you get a nice human-friendly view of a Data Package in seconds.</p>
+      <h3>Visualisation</h3>
+      <p><a href="/tools/view">Visualiser un ensemble de données</a> en ligne. Vous permet d'obtenir une belle vue conviviale d'un paquet de données en quelques secondes.</p>
     </div>
   </div>
   <div class="span4">
     <div class="well">
-      <h3>Create</h3>
-      <p><a href="/tools/create">Online datapackage.json maker</a> creates the <code>datapackage.json</code> file needed to turn data into a Data Package.</p>
+      <h3>Création</h3>
+      <p><a href="/tools/create">Générateur en ligne pour créer le fichier</a> <code>datapackage.json</code> qui est nécessaire pour transformer les données en un paquet de données.</p>
     </div>
   </div>
   <div class="span4">
     <div class="well">
-      <h3>Validate</h3>
-      <p><a href="/tools/validate">Online validator</a> checks your <code>datapackage.json</code> and Data Package are good to go.</p>
+      <h3>Validation</h3>
+      <p><a href="/tools/validate">Validateur en ligne</a> pour vérifie si votre <code>datapackage.json</code>  et le paquet de données sont correctes.</p>
     </div>
   </div>
 </div>
@@ -41,35 +41,35 @@ Tools and Plugins
 
 <div class="row tools">
   <div class="span8">
-    <h2>Using Tabular Data Packages With ...</h2>
+    <h2>Utilisation des paquets de données tabulaires Avec ...</h2>
 
     <div class="alert">
-      These "Using with" examples require <a href="/doc/tabular-data-package">Tabular Data Packages</a> where the data in the Data Package is stored in CSV (all the <a href="/data">datasets on this website</a> are in this format)
+      Ces exemples exigent des <a href="/doc/tabular-data-package">paquets de données tabulaires</a> où les données dans le paquet de données sont stockées au format CSV (tous les <a href="/data">ensembles de données sur ce site</a> sont dans ce format)
     </div>
 
-    <h3>Using with Excel</h3>
-    <p>For Excel you can just open the CSV file! We're also working on a macro &ndash; see <a href="https://github.com/okfn/data.okfn.org/issues/41">this issue for details</a>.</p>
+    <h3>Excel</h3>
+    <p>Pour Excel, vous pouvez simplement ouvrir le fichier CSV! Nous travaillons également sur une macro. Voir <a href="https://github.com/okfn/data.okfn.org/issues/41">cette question pour plus de détails</a>.</p>
 
-    <h3>Using with Google Spreadsheets</h3>
-    <p><a href="https://github.com/okfn/data.okfn.org/issues/24">Google Spreadsheet Import</a> (in progress)</p>
+    <h3>Google Spreadsheets</h3>
+    <p><a href="https://github.com/okfn/data.okfn.org/issues/24">Google Spreadsheet importation</a> (en cours)</p>
 
 
-    <h3>Using with R and R Client</h3>
+    <h3>R and R Client</h3>
     <p><a href="https://github.com/QBRC/RODProt">R Open Data Protocols Library with support for Data Packages and Tabular Data Package</a></p>
 
-    <h3>Using with Postgresql</h3>
+    <h3>Postgresql</h3>
     <p>There is a <a href="https://github.com/okfn/dptools/blob/master/bin/load-postgresql.py">python script (with no dependencies) to load a Tabular Data Package Data Package into Postgresql</a></p>
 
-    <h3>Using with SQLite</h3>
+    <h3>SQLite</h3>
     <p>There is a simple <a href="https://github.com/okfn/dptools/blob/master/bin/load-sqlite.py">python script (no dependencies) to load a Tabular Data Packages into SQLite</a></p>
 
-    <h3>Using with MATLAB</h3>
+    <h3>MATLAB</h3>
     <p>
       There is a MATLAB <a href="http://www.mathworks.com/matlabcentral/fileexchange/47506-read-tabular-data-package">function to read Tabular Data Packages into MATLAB</a>
     </p>
     <hr />
 
-    <h2>Libraries</h2>
+    <h2>Bibliothèques</h2>
     <h3>datapackage-* (nodejs)</h3>
     <p>There is a comprehensive set of NodeJS libraries which are "officially" supported.</p>
     <ul>
@@ -105,11 +105,11 @@ Tools and Plugins
     <p><a href="https://github.com/theodi/datapackage.rb">Ruby library</a> for parsing and validating both data packages and tabular data packages.</p>
     <hr />
 
-    <h2>Command Line</h2>
+    <h2>Ligne de commande</h2>
     <h3>Data Package Manager (dpm)</h3>
     <p><a href="https://github.com/okfn/dpm">data package manager (dpm)</a> - comprehensive command line tool.</p>
 
-    <h2>Other Tools</h2>
+    <h2>Autres outils</h2>
     <h3>Tabular Data Package Data Validator</h3>
     <p><a href="http://csvlint.io/">CSVLint</a></p>
 
