@@ -1,3 +1,3 @@
 [submodule "public/vendor/recline"]
 	path = public/vendor/recline
-	url = git://github.com/okfn/recline.git @ f1ec8f047479607bf07b6f2f05dfa77f679622ed
+	url = git://github.com/okfn/recline
