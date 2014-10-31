@@ -211,10 +211,20 @@ exports.toolsDataProxy = function(req, res) {
 // ========================================================
 
 exports.data = function(req, res) {
+  /* Alioune : I comment this line  
   datasets = catalog.query().filter(function(dp) {
     return !dp.isCore;
   });
+  */
   coreDatasets = catalog.byOwner('core');
+  // Alioune : I added this stuff
+  middle =  Math.floor(coreDatasets.length/2);
+  datasets = coreDatasets.slice(0, middle)
+  coreDatasets =coreDatasets.slice(middle, coreDatasets.length - 1)
+  console.log('here we are'  + datasets.length)
+  console.log('here we are'  + coreDatasets.length)
+  // End stuff
+
   total = datasets.length;
   res.render('data/index.html', {
     total: total,
