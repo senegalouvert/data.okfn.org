@@ -1,6 +1,6 @@
 # Publier des données en paquets de données 
 
-Vous pouvez publier **tout type de données** comme un paquet de données.
+Vous pouvez publier **tout type de données** comme paquet de données.
 
 Rendre vos données existant en un paquet de données est relativement simple :
 
