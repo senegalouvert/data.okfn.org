@@ -225,7 +225,7 @@ exports.data = function(req, res) {
   console.log('here we are'  + coreDatasets.length)
   // End stuff
 
-  total = datasets.length;
+  total = datasets.length + coreDatasets.length;
   res.render('data/index.html', {
     total: total,
     datasets: datasets,

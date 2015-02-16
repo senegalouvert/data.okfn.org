@@ -7,7 +7,6 @@
 }
 
 .navbar .brand img {
-  height: 45px;
   margin-top: -7px;
 }
 
@@ -17,13 +16,56 @@
 
 .navbar .nav li {
   line-height: 27px;
-  font-size: 20px;
 }
 
 .navbar-search {
   margin-top: 8px;
 }
 
+.navbar-inner {
+ background-color: #DFE4E7;
+}
+
+.navbar .nav > li > a {
+ color: #2E2A67;
+ font-size: 1em;
+ padding: 0 15px;
+}
+
+.navbar .nav i {
+ margin-bottom: -10px;
+ padding: 10px 0 0; 
+ font-size: 3em;
+ display: block;
+ transition: all .2s ease-in-out;
+}
+
+.navbar .nav li:hover i{
+ transform: translateY(-10px);
+ color: #BF3022;
+}
+
+.span4 {
+ background-color:#DFE4E7;
+ padding: 0 8px;
+ width: 352px;
+}
+
+.span_b1 {
+ border-left: 2px solid #BF3022;
+}
+
+.span_b2 {
+ border-left: 2px solid #202660;
+}
+
+.span_b3 {
+ border-left: 2px solid #00A7ED;
+}
+
+.brand img {
+ height: 70px;
+}
 .okfn-ribbon a {
   height: 60px;
   background-position: center -40px;
@@ -105,7 +147,7 @@ footer .projects img {
 
 .page-header h1 {
   font-weight: bold;
-  color: #333;
+  color: #2e2a67;
   text-align: left;
   font-size: 40px;
 }
@@ -145,33 +187,63 @@ footer .projects img {
   *******************************************************************/
 
 .hero-unit {
-  background: #eee;
   padding-top: 40px;
+  margin: -20px -20px 20px;
+  background: #007fcc; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwN2ZjYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMTRjY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #007fcc 0%, #014ccc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#007fcc), color-stop(100%,#014ccc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #007fcc 0%,#014ccc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #007fcc 0%,#014ccc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #007fcc 0%,#014ccc 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #007fcc 0%,#014ccc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007fcc', endColorstr='#014ccc',GradientType=0 ); /* IE6-8 */
+
+}
+
+.hero-unit-intro {
+  padding: 40px 60px 60px;
   margin: -20px -20px 20px;
 }
 
-.hero-unit > div {
+.fond-intro {
+  background:url("../img/ban_home.jpg") no-repeat scroll 0 0 transparent;
+  background-size:100% 100%;
+}
+
+.fond-search {
+  background:url("../img/rech_vide.jpg") no-repeat scroll 0 0 transparent;
+  background-size:100% 100%;
+}
+
+.hero-unit > div, .hero-unit-intro > div {
   max-width: 800px;
   margin: auto;
 }
 
-.hero-unit h1 {
+.hero-unit h1, .hero-unit-intro h1 {
   letter-spacing: 0;
+  color:#fff;
 }
 
-.hero-unit small {
+.hero-unit h3, .hero-unit-intro h3 {
+  color:#fff;
+}
+
+.hero-unit small, .hero-unit-intro small {
+  color:#fff; 
   font-size: 30px;
   line-height: 40px;
-  color: #444;
   margin-top: 20px;
   display: inline-block;
 }
 
-.hero-unit div.buttons {
+.hero-unit div.buttons, .hero-unit-intro div.buttons {
   margin-top: 30px;
 }
 
-.hero-unit div.buttons a {
+.hero-unit div.buttons a, .hero-unit-intro div.buttons a {
   font-size: 30px;
   line-height: 34px;
   width: 185px;
