@@ -39973,3 +39973,4 @@ here we are10
 [0mGET /js/app.js [36m304 [0m0.524 ms - -[0m
 [0mGET /vendor/recline/vendor/flot/jquery.flot.js [36m304 [0m0.812 ms - -[0m
 [0mGET /img/ban_home.jpg [36m304 [0m1.016 ms - -[0m
+[0mGET / [32m200 [0m0.981 ms - 9122[0m
